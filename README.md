@@ -12,7 +12,7 @@ Our fine-tuned GPT-2 Medium model is available on [Hugging Face](https://hugging
 Nore that since we used PyTorch to fine-tune GPT-2 Medium, the Inference API on Hugging Face does not work.
 
 ## Data
-In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Data), we have made available our four main datasets. The remaining datasets are available on [Synology Cloud](https://T34278926.quickconnect.to/d/s/ziemTGVVHGhyI6UHtWm7P9qA4fkL730m/d_yA3FB3AKlZC2PuJi0EphdTXlMTogjB-K7Ug0fCgmws ). Below you will find a brief overview of all the data files:
+In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Data), we have made available our main datasets. The remaining datasets are available on [Synology Cloud](https://T34278926.quickconnect.to/d/s/ziemTGVVHGhyI6UHtWm7P9qA4fkL730m/d_yA3FB3AKlZC2PuJi0EphdTXlMTogjB-K7Ug0fCgmws ). Below you will find a brief overview of all the data files:
 
 * [preprocessed_reviews.csv](): Contains our preprocessed data with 100,000 Amazon fashion item reviews
 * [topic_modeling_results.csv](): Contains the results of BERTopic on the 100,000 Amazon product reviews
@@ -41,7 +41,7 @@ Main branch:
   * Topic modeling using BERTopic
 
 Classification:
-* [sentiment.ipynb](): Notebook for classifying the Amazon fashion item reviews to randomly sample by sentiment (see paper for more information)
+* [sentiment.ipynb](): Notebook for classifying the Amazon fashion item reviews to randomly sample by sentiment using SiEBERT (see paper for more information)
 * [topic_modeling.ipynb](): Notebook for topic modelling using BERTopic
 
 Synthetic Review Generation and Analysis:
