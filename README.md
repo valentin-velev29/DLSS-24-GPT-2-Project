@@ -12,7 +12,7 @@ Our fine-tuned GPT-2 Medium model is available on [Hugging Face](https://hugging
 Nore that since we used PyTorch to fine-tune GPT-2 Medium, the Inference API on Hugging Face does not work.
 
 ## Data
-In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Data), we have made available our four main datasets. The remaining datasets are available on [Synology Cloud](https://T34278926.quickconnect.to/d/s/ziemTGVVHGhyI6UHtWm7P9qA4fkL730m/d_yA3FB3AKlZC2PuJi0EphdTXlMTogjB-K7Ug0fCgmws ).
+In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Data), we have made available our four main datasets. The remaining datasets are available on [Synology Cloud](https://T34278926.quickconnect.to/d/s/ziemTGVVHGhyI6UHtWm7P9qA4fkL730m/d_yA3FB3AKlZC2PuJi0EphdTXlMTogjB-K7Ug0fCgmws ). Below you will find a brief overview of all files in the folder:
 
 * [preprocessed_reviews.csv](): ...
 * [topic_modeling_results.csv](): ...
@@ -26,7 +26,7 @@ In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replica
 * [market_analysis.xlsx](): ...
 
 ## Notebooks
-In the folder [Notebooks](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Notebooks), we have made available the Jupyter Notebooks we used for all our computation, analysis, and visualization.
+In the folder [Notebooks](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Notebooks), we have made available the Jupyter Notebooks we used for all our computation, analysis, and visualization. Below you will find a brief overview of all files in the folder:
 
 * [ETL.ipynb](): Notebook for data preprocessing / extract-transform-load (ETL) pipeline including:
   * Data cleaning
@@ -49,7 +49,7 @@ In the folder [Notebooks](https://github.com/valentin-velev29/DLSS-24-Project-Re
   * Inter-rater reliability and PERMANOVA (for human evaluation)
 
 ## Plots
-In the folder [Plots](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Plots), we have uploaded all our plots.
+In the folder [Plots](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Plots), we have uploaded all our plots. Below you will find a brief overview of all files in the folder:
 
 Paper:
 * [rating_distribution.pdf](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/blob/main/Plots/rating_distribution.pdf): Figure 1 (left side) &ndash; Rating distribution
