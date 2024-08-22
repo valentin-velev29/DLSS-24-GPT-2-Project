@@ -28,7 +28,7 @@ In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replica
 ## Notebooks
 In the folder [Notebooks](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Notebooks), we have made available the Jupyter Notebooks we used for all our computation, analysis, and visualization.
 
-* [ETL.ipynb](): Notebook for data preprocessing / extract-transformload (ETL) pipeline including:
+* [ETL.ipynb](): Notebook for data preprocessing / extract-transform-load (ETL) pipeline including:
   * Data cleaning
   * ...
   * ...
@@ -39,9 +39,9 @@ In the folder [Notebooks](https://github.com/valentin-velev29/DLSS-24-Project-Re
   * Word clouds (overall, by sentiment, and by rating)
   * Topic modeling using BERTopic
 * [topic_modeling.ipynb](): Notebook for topic modelling using BERTopic.
-* [gpt-2_fine-tune.ipynb](): Notebook for fine-tuning GPT-2. Note that the fine-tuning with 100,000 reviews takes roughly ...
+* [gpt-2_fine-tune.ipynb](): Notebook for fine-tuning GPT-2. Note that the fine-tuning with 100,000 reviews takes roughly 2-3 days using two NVIDIA A40 GPUs (48 GB).
 * [gpt-2_review_generation.ipynb](): Notebook for generating synthetic product reviews using GPT-2 Medium and calculating perplexity.
-* [llama-3_review_generation.ipynb](): Notebook for generating synthetic product reviews using LLaMA 3 8B and calculating perplexity. Note that the initialization of LLaMA 3 8B in Kaggle with a P100 GPU takes roughly 50 minutes and the generation of 10,000 synthetic reviews takes roughly 20 hours.
+* [llama-3_review_generation.ipynb](): Notebook for generating synthetic product reviews using LLaMA 3 8B and calculating perplexity. Note that the initialization of LLaMA 3 8B in Kaggle with an NVIDIA P100 GPU (16GB) takes roughly 50 minutes and the generation of 10,000 synthetic reviews takes roughly 20 hours.
 * [stat_evaluation.ipynb](): Notebook for the statistical evaluation of the synthetic product reviews, including:
   * Statistical tendencies (Zipf's law)
   * Linguistic features (average length, type-token ratio, verb and noun usage, and readability)
