@@ -26,7 +26,7 @@ In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replica
 * [market_analysis.xlsx](): Contains the results from our market analysis (see our paper for more information)
 
 ## Notebooks
-The Jupyter Notebooks we used for all our computation, analysis, and visualization are in the main branch and in the folders [Classification]() and [Synthetic Product Review Generation and Analysis](). Below you will find a brief overview of the Jupyter Notebooks:
+The Jupyter Notebooks we used for all our computation, analysis, and visualization are in the [Main Brach](https://github.com/valentin-velev29/DLSS-24-GPT-2-Project) and in the folders [Classification]() and [Synthetic Product Review Generation and Analysis](). Below you will find a brief overview of the Jupyter Notebooks:
 
 Main branch:
 * [ETL.ipynb](): Notebook for data preprocessing / extract-transform-load (ETL) pipeline including:
