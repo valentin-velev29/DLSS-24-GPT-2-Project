@@ -28,7 +28,7 @@ In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replica
 ## Notebooks
 The Jupyter Notebooks we used for all our computation, analysis, and visualization are in the [Main Branch](https://github.com/valentin-velev29/DLSS-24-GPT-2-Project) and in the folders [Classification]() and [Synthetic Product Review Generation and Analysis](). Below you will find a brief overview of the Jupyter Notebooks:
 
-Main Branch:
+**Main Branch:**
 * [ETL.ipynb](): Notebook for data preprocessing / extract-transform-load (ETL) pipeline including:
   * Data cleaning
   * ...
@@ -40,11 +40,11 @@ Main Branch:
   * Word clouds (overall, by sentiment, and by rating)
   * Topic modeling using BERTopic
 
-Classification:
+**Classification:**
 * [sentiment.ipynb](): Notebook for classifying the Amazon fashion item reviews to randomly sample by sentiment using SiEBERT (see paper for more information)
 * [topic_modeling.ipynb](): Notebook for topic modelling using BERTopic
 
-Synthetic Review Generation and Analysis:
+**Synthetic Review Generation and Analysis:**
 * [gpt-2_fine-tune.ipynb](): Notebook for fine-tuning GPT-2. Note that the fine-tuning with 100,000 reviews takes roughly 2-3 days using two NVIDIA A40 GPUs (48 GB).
 * [gpt-2_review_generation.ipynb](): Notebook for generating synthetic product reviews using GPT-2 Medium and calculating perplexity.
 * [llama-3_review_generation.ipynb](): Notebook for generating synthetic product reviews using LLaMA 3 8B and calculating perplexity. Note that the initialization of LLaMA 3 8B in Kaggle with an NVIDIA P100 GPU (16GB) takes roughly 50 minutes and the generation of 10,000 synthetic reviews takes roughly 20 hours.
